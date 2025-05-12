@@ -2,21 +2,22 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 47834 - Banqueri, Federico
+* 43081 - Bozio, Rodrigo
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [frontend app](https://github.com/Bozio96/tp-back)
+* [backend app](https://github.com/Bozio96/tp-front)
+
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Desarrollo de un sistema integral de gestión comercial (ABM), orientado al control eficiente de productos, ventas, clientes y stock. La aplicación permite administrar altas, bajas y modificaciones, visualizar  y mantener actualizada la información del negocio en tiempo real, optimizando así la toma de decisiones operativas.
 
 ### Modelo
-![imagen del modelo]()
+![DER-PROYECTO](https://res.cloudinary.com/dnfil5isx/image/upload/v1747062694/DER_rxuupf.png)
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+[DRAW.IO](https://drive.google.com/file/d/1RTLf_E5UD35Dk5Pul_CtIHzCp6Ftm9do/view?usp=drive_link)
 
 ## Alcance Funcional 
 
@@ -27,7 +28,7 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
+|CRUD simple|1. CRUD Producto<br>2. CRUD Cliente<br>|
 |CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
 |Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
