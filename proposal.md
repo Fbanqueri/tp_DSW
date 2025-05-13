@@ -36,7 +36,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. 1. CRUD Productos<br>2. CRUD Cliente<br>3. CRUD Ventas<br>4. CRUD Usuarios|
+|CRUD |1. CRUD Productos<br>2. CRUD Cliente<br>3. CRUD Ventas<br>4. CRUD Usuarios|
 |CUU/Epic|1. Realizar una venta <br>2. Dar de alta/baja/modificacion un producto<br>3.Dar de alta/baja/modificacion un cliente<br>4.Facturar una venta.|
 
 
